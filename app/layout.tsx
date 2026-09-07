@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "DiKOMIK - Baca Komik Online",
   description: "Platform baca komik online",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/favicon.svg",
   },
 };
 
