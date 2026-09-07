@@ -25,7 +25,7 @@ export default function HomePage() {
         {dummyBanners.map((banner) => (
           <div
             key={banner.id}
-            className="relative h-[170px] flex-1 overflow-hidden rounded-lg bg-white/5"
+            className="relative h-[120px] flex-1 overflow-hidden rounded-lg bg-white/5"
           >
             <Image
               src={banner.imageUrl}
