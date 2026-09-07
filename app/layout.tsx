@@ -6,6 +6,9 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "DiKOMIK - Baca Komik Online",
   description: "Platform baca komik online",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
