@@ -1,0 +1,64 @@
+@import url('https://cdn.jsdelivr.net/npm/@fontsource/comic-relief@5.0.1/index.min.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap");
+
+:root {
+  --font-display: "Chakra Petch", sans-serif;
+  --font-body: "Manrope", sans-serif;
+}
+
+html,
+body {
+  background-color: #060d0c;
+  color: #ffffff;
+  font-family: var(--font-body);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Lebar fleksibel: 100% di HP/Tablet, dan maksimal 1440px di layar desktop besar */
+.page-canvas {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  min-height: 100vh;
+  background-color: #060d0c;
+}
+
+/* Padding responsif: Kecil di HP (16px/24px) dan melebar di Desktop (90px) */
+.page-content {
+  padding-left: 1rem;      /* 16px default HP */
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .page-content {
+    padding-left: 1.5rem;  /* 24px Tablet */
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .page-content {
+    padding-left: 5.625rem; /* 90px Desktop */
+    padding-right: 5.625rem;
+  }
+}
+
+::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #1cba9d55;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
