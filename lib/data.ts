@@ -43,12 +43,12 @@ export const dummyComics: Comic[] = Array.from({ length: 18 }).map((_, i) => {
 export const dummyBanners: Banner[] = [
   {
     id: "banner-1",
-    imageUrl: "/comics/banner-indihome.jpg",
+    imageUrl: "/ads/ads_1.jpg",
     alt: "IndiHome Paket Phoenix",
   },
   {
     id: "banner-2",
-    imageUrl: "/comics/banner-telkomuniversity.jpg",
+    imageUrl: "/ads/ads_2.jpg",
     alt: "Jalur Seleksi Rapor TUS Tel-U Surabaya",
   },
 ];
